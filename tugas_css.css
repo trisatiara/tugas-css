@@ -1,0 +1,128 @@
+body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.gambar {
+    width: 50%;
+}
+
+.gambar img {
+    width: 100%;
+}
+
+.card-wrapper {
+    width: 50%;
+    margin-top: 35px;
+}
+
+.card1 {
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 2px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.card1 img {
+    width: 180px;
+    margin-top: 20px;
+}
+
+.form {
+    margin-top: 15px;
+}
+
+.form input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 10px;
+}  
+
+.form button {
+    background-color: #0095f6;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 20px;
+    width: 310px;
+    height: 35px;
+    color: white;
+}
+
+.or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 42px;
+    margin-right: 42px;
+    color: #999;
+    margin-top: 6px;
+}
+
+.or p {
+    font-size: 15px;
+    color: gray;
+}
+
+.line {
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+}
+
+.facebook {
+    color: #01017a;
+    text-decoration: 0;
+}
+
+.forgot {
+    color: #385898;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.card2 {
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 2px;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.card2 a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.app {
+    text-align: center;
+}
+
+.app img {
+    width: 300px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer span {
+    color: grey;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 5px;
+}
